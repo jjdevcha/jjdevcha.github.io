@@ -1,5 +1,1 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+Hello! I'm Jung-In. I'm currently studying software engineering at Cyber University of Korea. I write about my journey in software engineering and web developing.
