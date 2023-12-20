@@ -38,5 +38,44 @@ constant f(n) = 1
 - Strings require O(n) space (where n is the string length)
 - Reference types are generally O(n), where n is the length(for arrays) or the number of keys (for objects)
 
+#### When to use objects?
+- When you don't need order
+- When you need fast access/ insertion and removal
+
+##### Big O of objects
+Insertion - O(1)  
+Removal - O(1)  
+Searching - O(N)  
+Access - O(1)  
+
+##### Big O of object methods
+Object.keys - O(N)  
+Object.values - O(N)  
+Object.entries - O(N)  
+hasOwnProperty - O(1)  
+
+#### When to use arrays
+- When you need order
+- when you need fast access/ insertion and removal (it depends...)
+
+##### Big O of arrays
+insertion - It depends...  
+Removal - It depends...  
+Searching - O(N)  
+Access - O(1)  
+
+##### Big O of array operations
+push - O(1)  
+pop - O(1)  
+shift - O(N)  
+unshift - O(N)  
+concat - O(N)  
+slice - O(N)  
+splice - O(N)  
+sort - O(N*logN)  
+forEach/map/filter/reduce/etc. - O(N)  
+
+
+
 ##### Logarithms
 logn
